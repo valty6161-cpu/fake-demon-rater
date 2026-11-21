@@ -1,0 +1,24 @@
+{
+  "geode": "v5.0.0",
+  "gd": {
+    "win": "2.2081"
+  },
+  "id": "valty.fake-demon-rater",
+  "name": "Fake Demon Rater",
+  "version": "v1.0.0",
+  "developer": "valty",
+  "description": "Makes my own levels look demon-rated.",
+  "settings": {
+    "difficulty": {
+      "type": "string",
+      "name": "Fake difficulty",
+      "default": "Extreme Demon",
+      "one-of": ["Easy Demon", "Medium Demon", "Hard Demon", "Insane Demon", "Extreme Demon"]
+    },
+    "fake-complete": {
+      "type": "bool",
+      "name": "Show as 100% beaten",
+      "default": true
+    }
+  }
+}
